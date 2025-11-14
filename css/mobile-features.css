@@ -1,0 +1,52 @@
+#funcionalidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    background-color: rgb(51, 82, 106);
+    padding: 1em;
+    div{
+        background-color: rgb(229, 229, 229);
+        width: 80%;
+        padding: 1.5em;
+        box-shadow: 10px 10px 8px;
+    }
+}
+
+h2{
+    margin: 1em 0;
+    color: white;
+}
+
+p{
+    margin: 0.5em;
+}
+
+#tabla-valora{
+    display: none;
+}
+
+#ventajas-desventajas{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    table{
+        border: solid gray 1px;
+        padding: 1em;
+        background-color: white;
+        th{
+            border-bottom: 1px solid gray;
+        }
+        td{
+            padding: 0.5em;
+            border-top: 1px solid gray;
+        }
+    }
+}
+
+
+

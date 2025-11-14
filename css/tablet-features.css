@@ -1,0 +1,22 @@
+@media only screen and (min-width: 700px) {
+    #funcionalidades div{
+        height: 25vh;
+        width: 70%;
+        align-content: center;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    #ventajas-desventajas{
+        justify-content: space-around;
+        table{
+            width: 60%;
+        }
+    }
+}

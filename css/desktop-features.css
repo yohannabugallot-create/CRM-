@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1300px) {
+  #funcionalidades {
+    padding: 4em;
+    div {
+      width: 55%;
+      align-content: center;
+    }
+  }
+
+  h2{
+    font-size: 50px;
+  }
+
+  h3{
+    font-size: 23px;
+    border: solid 1px rgb(51, 82, 106); 
+    text-align: center;
+    padding: 0.5em;
+    margin: 0 10em;
+ }
+
+ th{
+    font-size: 23px;
+ }
+
+  p, td{
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+
+  #tabla-valora {
+    display: flex;
+    flex-direction: column;
+
+    table {
+      width: 2%;
+      align-self: center;
+      margin: 1em;
+      th,
+      td {
+        padding: 1em;
+        align-self: center;
+        text-align: center;
+        border-bottom: 1px gray solid;
+      }
+    }
+  }
+}

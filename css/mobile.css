@@ -1,0 +1,44 @@
+
+#bloc1{
+    display: flex;
+    background-image: url(../img/SAPCX_fons.webp);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    div{
+        background-color: rgba(77, 115, 184, 0.8);
+        padding: 2em 3em;
+    }
+}
+
+#bloc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+    div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2em;
+        div{
+            flex-direction:column;
+            max-width: 45%;
+            border: gray 1px solid;
+            border-radius: 1em;
+            padding: 1em;
+            background-color: rgb(243, 243, 243);
+            box-shadow: 10px 10px 10px gray;
+            p{
+                font-size: 15px;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

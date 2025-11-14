@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1300px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            margin: 0;
+            width: 8%;
+        }
+        nav{
+            border: 0;
+            margin: 0;
+        }
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 23px;
+    }
+
+    p{
+        font-size: 27px;
+    }
+
+    #bloc1{
+        height: 80vh;
+        div{
+            width: 70%;
+            padding: 6em;
+            line-height: 40px;
+        }
+    }
+
+    #bloc2{
+        padding: 5em;
+        div{
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            div{
+                max-width: 20%;
+                p{
+                    font-size: 20px;
+
+                }
+            }
+        }
+    }
+}

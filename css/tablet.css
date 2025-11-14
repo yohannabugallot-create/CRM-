@@ -1,0 +1,28 @@
+@media only screen and (min-width: 700px){
+    header{
+        nav{
+            flex-direction: row;
+        }
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    #bloc1{
+        padding: 7em;
+        font-size: 18px;
+        div{
+            padding: 4em;
+        }
+    }
+
+    #bloc2{
+        padding: 1.5em;
+        padding-bottom: 3em;
+        div{
+            justify-content: center;
+            p{padding: 2em;}
+        }
+    }
+}
